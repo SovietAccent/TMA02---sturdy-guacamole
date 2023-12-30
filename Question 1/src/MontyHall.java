@@ -67,14 +67,10 @@ public class MontyHall {
     public int findAlternativeDoor(int contestantChoice) {
         // Check if the door the contestant selected has a goat behind it
         if (doors.get(contestantChoice - 1).equals("goat")) {
-            // Find the door number that holds the car
-            for (int i = 0; i < doors.size(); i++) {
-                if (i != contestantChoice - 1 && doors.get(i).equals("car")) {
-                    return i + 1; // Return the door number with the car
-                }
-            }
+            // Find the door number that holds the car - if th
+            return doors.indexOf("car") + 1;
 
-        // If the door selected by the contestant holds the car, randomly return one of the other two door numbers
+            // If the door selected by the contestant holds the car, randomly return one of the other two door numbers
             //if the contestant selects car
         } if (doors.get(contestantChoice - 1).equals("car")) {
             // initialise a new variable called alternativeDoor that will be equal in value to contestantChoice.
