@@ -1,4 +1,3 @@
-import javax.swing.plaf.synth.SynthTextAreaUI;
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -15,7 +14,7 @@ public class MontyHall {
      */
     public MontyHall() {
         ran = new Random();
-        doors = new ArrayList<String>();
+        doors = new ArrayList<>();
     }
 
     /**
@@ -122,8 +121,9 @@ public class MontyHall {
         }
 
         System.out.println("Wins by sticking: " + winsStick);
-        System.out.println("Wins by Switching: " + winsSwitch);}
-
+        System.out.println("Wins by Switching: " + winsSwitch);
+    }
+    
 }
 
 
