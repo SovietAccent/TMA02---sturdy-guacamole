@@ -1,5 +1,6 @@
 import com.sun.source.tree.Tree;
 
+import java.util.Locale;
 import java.util.TreeSet;
 import java.util.TreeMap;
 
@@ -51,10 +52,50 @@ public class Anagram {
      * (e)
      */
 
-    public boolean areAnagrams(String aword, String anotherWord)
-    {
+    public boolean areAnagrams(String aWord, String anotherWord) {
 
+        //create a TreeSet for both words - this will sort the elements in a natural order
+        TreeSet<Character> firstWord = new TreeSet<>();
+        TreeSet<Character> secondWord = new TreeSet<>();
+
+        // ensure that the given parameters are not empty and return false if this is the case
+        if (aWord.isEmpty() || anotherWord.isEmpty()) {
+            return false;
+        }
+
+        // ensure both words are lower case and have whitespaces removed to allow accurate comparision - this is
+        // done outside the loop to prevent redundant computations.
+        aWord = aWord.toLowerCase().trim();
+        anotherWord = anotherWord.toLowerCase().trim();
+
+        // add each character of the given parameters into a TreeSet - this ensures all characters are naturally sorted
+        for (char c : aWord.toCharArray()) {
+            firstWord.add(c);
+        }
+
+        for (char c : anotherWord.toCharArray()) {
+            secondWord.add(c);
+        }
+        //return true if the words are anagrams, or return false if not.
+        return firstWord.equals(secondWord);
     }
+
+
+    /**
+     * (f)
+     */
+    public void addAnagram(String aWord, String anAnagram)
+    {   // Test to see if the given parameters are anagrams using the areAnagrams() method
+        if (areAnagrams(aWord, anAnagram)) {
+            System.out.print("True Test");
+        } else {
+            System.out.println("False Test");
+        }
+
+        anagrams.computeIfAbsent(aWord, k -> new TreeSet<>()).add(anAnagram);
+    }
+
+
 
 }
 

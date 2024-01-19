@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebcbb70a-e940-45bf-ab98-f2d3c00e2633" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Question 2/src/Anagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="ebcbb70a-e940-45bf-ab98-f2d3c00e2633" name="Changes" comment="Hullo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontyHall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question 1/Question 2/Question 2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question 1/Question 2/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question 1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Question 1/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question 2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question 2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question 2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question 2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question 2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question 2/src/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Question 2/src/Anagram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,29 +37,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "20",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -101,11 +90,25 @@
       <option name="presentableId" value="Default" />
       <updated>1703875189480</updated>
       <workItem from="1703875190554" duration="264000" />
-      <workItem from="1705166740100" duration="15563000" />
+      <workItem from="1705166740100" duration="23447000" />
+      <workItem from="1705694413249" duration="1371000" />
     </task>
+    <task id="LOCAL-00001" summary="Hullo">
+      <option name="closed" value="true" />
+      <created>1705428023749</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705428023749</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Hullo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hullo" />
   </component>
 </project>
