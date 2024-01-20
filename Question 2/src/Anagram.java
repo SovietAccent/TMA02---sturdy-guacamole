@@ -1,6 +1,3 @@
-import com.sun.source.tree.Tree;
-
-import java.util.Locale;
 import java.util.TreeSet;
 import java.util.TreeMap;
 
@@ -63,7 +60,7 @@ public class Anagram {
             return false;
         }
 
-        // ensure both words are lower case and have whitespaces removed to allow accurate comparision - this is
+        // ensure both words are lower case and have whitespaces removed to allow accurate comparison - this is
         // done outside the loop to prevent redundant computations.
         aWord = aWord.toLowerCase().trim();
         anotherWord = anotherWord.toLowerCase().trim();
@@ -84,20 +81,11 @@ public class Anagram {
     /**
      * (f)
      */
-    public void addAnagram(String aWord, String anAnagram)
-    {   // Test to see if the given parameters are anagrams using the areAnagrams() method
+    public void addAnagram(String aWord, String anAnagram) {   // Test to see if the given parameters are anagrams using the areAnagrams() method AND aWord is in the Anagram TreeMap
         if (areAnagrams(aWord, anAnagram)) {
-            System.out.print("True Test");
-        } else {
-            System.out.println("False Test");
+            anagrams.computeIfAbsent(aWord, k -> new TreeSet<>()).add(anAnagram);
         }
-
-        anagrams.computeIfAbsent(aWord, k -> new TreeSet<>()).add(anAnagram);
     }
-
-
-    //this is a test to get this damn thing working properly.
-
 
 }
 

@@ -7,9 +7,31 @@ public class Main {
 
         anagram.print();
 
-        System.out.println(anagram.areAnagrams("test", "test"));
+        anagram.addAnagram("saps", "asps");
 
-        anagram.addAnagram("Test", "SETT");
+        anagram.addAnagram("beat", "abet");
+
+        anagram.addAnagram("beat", "beta");
+
+        anagram.addAnagram("list", "sitl");
+
+        anagram.addAnagram("list", "silt");
+
+        anagram.addAnagram("test", "estt");
+
+        anagram.addAnagram("test", "tste" );
+
+        anagram.print();
+
+        System.out.println();
+
+        anagram.addAnagram("came", "acme");
+
+        anagram.addAnagram("came", "mace");
+
+        anagram.print();
+
+
 
 
 
