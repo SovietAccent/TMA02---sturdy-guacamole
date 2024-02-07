@@ -13,7 +13,16 @@ public class Pell {
     //(c)
     public int calculatePellNumAt(int n)
     {
+        int pellMinOne = 2;
+        int pellMinTwo = 1;
+        int pellNumber = 0;
 
+        for(int i = 3; i <= n; i++) {
+            pellNumber = 2 * pellMinOne + pellMinTwo;
+            pellMinTwo = pellMinOne;
+            pellMinOne = pellNumber;
+        }
+        return pellNumber;
     }
 
     //(d)
