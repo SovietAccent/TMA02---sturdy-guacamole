@@ -31,7 +31,6 @@ public class Anagram {
         anagrams.computeIfAbsent("saps", k -> new TreeSet<>()).add("asps");
         anagrams.computeIfAbsent("saps", k -> new TreeSet<>()).add("pass");
         anagrams.computeIfAbsent("saps", k -> new TreeSet<>()).add("spas");
-
     }
 
     /**
@@ -43,6 +42,7 @@ public class Anagram {
             values.forEach(value -> System.out.print(value + " "));
             System.out.println();
         });
+
     }
 
     /**
@@ -56,14 +56,10 @@ public class Anagram {
         TreeSet<Character> secondWord = new TreeSet<>();
 
         // ensure that the given parameters are not empty and return false if this is the case
-        if (aWord.isEmpty() || anotherWord.isEmpty()) {
+        // and ensure that aWord and anotherWord are both equal in length
+        if (aWord.isEmpty() || anotherWord.isEmpty() || aWord.length() != anotherWord.length()) {
             return false;
         }
-
-        // ensure both words are lower case and have whitespaces removed to allow accurate comparison - this is
-        // done outside the loop to prevent redundant computations.
-        aWord = aWord.toLowerCase().trim();
-        anotherWord = anotherWord.toLowerCase().trim();
 
         // add each character of the given parameters into a TreeSet - this ensures all characters are naturally sorted
         for (char c : aWord.toCharArray()) {
@@ -87,5 +83,26 @@ public class Anagram {
         }
     }
 
-}
+    /**
+     * (g)
+     */
+    public void crossReference() {
+        //create a new TreeMap to hold the cross-referenced anagrams
+        TreeMap<String, TreeSet<String>> transformedAnagrams = new TreeMap<>(); // Step 1
 
+        //iterate through the original set of anagrams
+        for (String key : anagrams.keySet()) {
+            TreeSet<String> currentAnagram = anagrams.get(key);
+
+            // add the keys from the currentAnagram to the transFormedAnagram
+            transformedAnagrams.computeIfAbsent(key, k -> new TreeSet<>()).addAll(currentAnagram);
+
+            for (String value : currentAnagram) {
+                transformedAnagrams.computeIfAbsent(value, k -> new TreeSet<>()).addAll(currentAnagram);
+
+            }
+        }
+        // Update the original anagr ams map with the transformed data
+        anagrams = transformedAnagrams; // step 5
+    }
+}
