@@ -1,0 +1,238 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"ebcbb70a-e940-45bf-ab98-f2d3c00e2633\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/Question 2/src/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Question 2/src/Anagram.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Question 2/src/Anagram.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2aEE9vNzkxsOyGQVRYVbIMCsd4V\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  },\r\n  \"keyToStringList\": {\r\n    \"com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File\": [\r\n      \"JAVA\"\r\n    ]\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-20.0.2-azul-20.0.2-f644763e9732-d86f2a68\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"ebcbb70a-e940-45bf-ab98-f2d3c00e2633\" name=\"Changes\" comment=\"\" />\r\n      <created>1703875189480</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1703875189480</updated>\r\n      <workItem from=\"1703875190554\" duration=\"264000\" />\r\n      <workItem from=\"1705428230662\" duration=\"27000\" />\r\n      <workItem from=\"1705696262461\" duration=\"14000\" />\r\n      <workItem from=\"1705779078064\" duration=\"5534000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision d1ccb335ec66f0d5707e2b4582aacda4071a38d4)
++++ b/.idea/workspace.xml	(date 1705953174635)
+@@ -5,10 +5,9 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="ebcbb70a-e940-45bf-ab98-f2d3c00e2633" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/Question 2/src/Main.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Question 2/src/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Question 2/src/Anagram.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Question 2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Question 2/src/Main.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -34,26 +33,40 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Application.Main.executor": "Run",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "main",
+-    "kotlin-language-version-configured": "true",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "vue.rearranger.settings.migration": "true"
+-  },
+-  "keyToStringList": {
+-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+-      "JAVA"
+-    ]
+-  }
+-}]]></component>
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  },
++  &quot;keyToStringList&quot;: {
++    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
++      &quot;JAVA&quot;
++    ]
++  }
++}</component>
++  <component name="RunManager">
++    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Main" />
++      <module name="Question 2" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Application.Main" />
++      </list>
++    </recent_temporary>
++  </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+@@ -73,6 +86,8 @@
+       <workItem from="1705428230662" duration="27000" />
+       <workItem from="1705696262461" duration="14000" />
+       <workItem from="1705779078064" duration="5534000" />
++      <workItem from="1705849920360" duration="16747000" />
++      <workItem from="1705953171031" duration="4000" />
+     </task>
+     <servers />
+   </component>
+Index: Question 2/src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Main {\r\n    public static void main(String[] args) {\r\n\r\n        Anagram anagram = new Anagram();\r\n\r\n        anagram.populate();\r\n\r\n        anagram.print();\r\n\r\n//        anagram.addAnagram(\"saps\", \"asps\");\r\n//\r\n//        anagram.addAnagram(\"beat\", \"abet\");\r\n//\r\n//        anagram.addAnagram(\"beat\", \"beta\");\r\n//\r\n//        anagram.addAnagram(\"list\", \"sitl\");\r\n//\r\n//        anagram.addAnagram(\"list\", \"silt\");\r\n//\r\n//        anagram.addAnagram(\"test\", \"estt\");\r\n//\r\n//        anagram.addAnagram(\"test\", \"tste\" );\r\n//\r\n//        anagram.addAnagram(\"came\", \"acme\");\r\n//\r\n//        anagram.addAnagram(\"came\", \"mace\");\r\n\r\n\r\n        System.out.println();\r\n\r\n        anagram.crossReference();\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Question 2/src/Main.java b/Question 2/src/Main.java
+--- a/Question 2/src/Main.java	(revision d1ccb335ec66f0d5707e2b4582aacda4071a38d4)
++++ b/Question 2/src/Main.java	(date 1705866741280)
+@@ -5,40 +5,26 @@
+ 
+         anagram.populate();
+ 
+-        anagram.print();
++
++        anagram.addAnagram("beat", "abet");
++
++        anagram.addAnagram("beat", "beta");
++
++
++        anagram.addAnagram("test", "estt");
+ 
+-//        anagram.addAnagram("saps", "asps");
+-//
+-//        anagram.addAnagram("beat", "abet");
+-//
+-//        anagram.addAnagram("beat", "beta");
+-//
+-//        anagram.addAnagram("list", "sitl");
+-//
+-//        anagram.addAnagram("list", "silt");
+-//
+-//        anagram.addAnagram("test", "estt");
+-//
+-//        anagram.addAnagram("test", "tste" );
+-//
+-//        anagram.addAnagram("came", "acme");
+-//
+-//        anagram.addAnagram("came", "mace");
++        anagram.addAnagram("test", "tste" );
+ 
++        anagram.addAnagram("came", "acme");
++
++        anagram.addAnagram("came", "mace");
++
++        //anagram.print();
+ 
+         System.out.println();
+ 
+         anagram.crossReference();
+ 
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
++        anagram.print();
+     }
+ }
+\ No newline at end of file
+Index: Question 2/src/Anagram.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.TreeSet;\r\nimport java.util.TreeMap;\r\n\r\n/**\r\n * (a)\r\n */\r\n\r\npublic class Anagram {\r\n\r\n    public TreeMap<String, TreeSet<String>> anagrams;\r\n\r\n    /**\r\n     * (b)\r\n     */\r\n\r\n    public Anagram() {\r\n        anagrams = new TreeMap<>();\r\n    }\r\n\r\n    /**\r\n     * (c) - in this method, if the provided key is absent from the map, it will be added and stored as a key and the lambda\r\n     * function will create a new TreeSet. The given value will then be associated with this key. If the key already exists, the\r\n     * lambda function will not run and a new TreeSet will not be created as one currently exists. The provided value will then\r\n     * be added to the associated TreeSet.\r\n     */\r\n\r\n    public void populate() {\r\n        anagrams.computeIfAbsent(\"list\", k -> new TreeSet<>()).add(\"silt\");\r\n        anagrams.computeIfAbsent(\"list\", k -> new TreeSet<>()).add(\"slit\"); //\"list\" already exists - a new TreeSet is not created - slit is added to the existing set.\r\n\r\n        anagrams.computeIfAbsent(\"saps\", k -> new TreeSet<>()).add(\"asps\");\r\n        anagrams.computeIfAbsent(\"saps\", k -> new TreeSet<>()).add(\"pass\");\r\n        anagrams.computeIfAbsent(\"saps\", k -> new TreeSet<>()).add(\"spas\");\r\n\r\n    }\r\n\r\n    /**\r\n     * (d)\r\n     */\r\n    public void print() {\r\n        anagrams.forEach((key, values) -> {\r\n            System.out.print(key + \" - \");\r\n            values.forEach(value -> System.out.print(value + \" \"));\r\n            System.out.println();\r\n        });\r\n    }\r\n\r\n    /**\r\n     * (e)\r\n     */\r\n\r\n    public boolean areAnagrams(String aWord, String anotherWord) {\r\n\r\n        //create a TreeSet for both words - this will sort the elements in a natural order\r\n        TreeSet<Character> firstWord = new TreeSet<>();\r\n        TreeSet<Character> secondWord = new TreeSet<>();\r\n\r\n        // ensure that the given parameters are not empty and return false if this is the case\r\n        if (aWord.isEmpty() || anotherWord.isEmpty()) {\r\n            return false;\r\n        }\r\n\r\n        // ensure both words are lower case and have whitespaces removed to allow accurate comparision - this is\r\n        // done outside the loop to prevent redundant computations.\r\n        aWord = aWord.toLowerCase().trim();\r\n        anotherWord = anotherWord.toLowerCase().trim();\r\n\r\n        // add each character of the given parameters into a TreeSet - this ensures all characters are naturally sorted\r\n        for (char c : aWord.toCharArray()) {\r\n            firstWord.add(c);\r\n        }\r\n\r\n        for (char c : anotherWord.toCharArray()) {\r\n            secondWord.add(c);\r\n        }\r\n        //return true if the words are anagrams, or return false if not.\r\n        return firstWord.equals(secondWord);\r\n    }\r\n\r\n\r\n    /**\r\n     * (f)\r\n     */\r\n    public void addAnagram(String aWord, String anAnagram) {   // Test to see if the given parameters are anagrams using the areAnagrams() method AND aWord is in the Anagram TreeMap\r\n        if (areAnagrams(aWord, anAnagram)) {\r\n            anagrams.computeIfAbsent(aWord, k -> new TreeSet<>()).add(anAnagram);\r\n        }\r\n    }\r\n\r\n    /**\r\n     * (g)\r\n     */\r\n    public void crossReference() {\r\n        TreeMap<String, TreeSet<String>> swappedMap = new TreeMap<>();\r\n\r\n        System.out.println(anagrams.keySet());\r\n\r\n        for (String key : anagrams.keySet()) {\r\n            TreeSet<String> valueSet = anagrams.get(key);\r\n\r\n            System.out.print(valueSet);\r\n\r\n            for (String value : valueSet) {\r\n                if (!swappedMap.containsKey(value)) {\r\n                    anagrams.computeIfAbsent(aWord, k -> new TreeSet<>()).add(anAnagram);\r\n                }\r\n                swappedMap.get(value).add(key);\r\n            }\r\n        }\r\n\r\n        // Now, swappedMap contains the swapped key-value pairs\r\n        anagrams =  swappedMap;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Question 2/src/Anagram.java b/Question 2/src/Anagram.java
+--- a/Question 2/src/Anagram.java	(revision d1ccb335ec66f0d5707e2b4582aacda4071a38d4)
++++ b/Question 2/src/Anagram.java	(date 1705866741283)
+@@ -31,7 +31,6 @@
+         anagrams.computeIfAbsent("saps", k -> new TreeSet<>()).add("asps");
+         anagrams.computeIfAbsent("saps", k -> new TreeSet<>()).add("pass");
+         anagrams.computeIfAbsent("saps", k -> new TreeSet<>()).add("spas");
+-
+     }
+ 
+     /**
+@@ -43,6 +42,7 @@
+             values.forEach(value -> System.out.print(value + " "));
+             System.out.println();
+         });
++
+     }
+ 
+     /**
+@@ -56,15 +56,11 @@
+         TreeSet<Character> secondWord = new TreeSet<>();
+ 
+         // ensure that the given parameters are not empty and return false if this is the case
+-        if (aWord.isEmpty() || anotherWord.isEmpty()) {
++        // and ensure that aWord and anotherWord are both equal in length
++        if (aWord.isEmpty() || anotherWord.isEmpty() || aWord.length() != anotherWord.length()) {
+             return false;
+         }
+ 
+-        // ensure both words are lower case and have whitespaces removed to allow accurate comparision - this is
+-        // done outside the loop to prevent redundant computations.
+-        aWord = aWord.toLowerCase().trim();
+-        anotherWord = anotherWord.toLowerCase().trim();
+-
+         // add each character of the given parameters into a TreeSet - this ensures all characters are naturally sorted
+         for (char c : aWord.toCharArray()) {
+             firstWord.add(c);
+@@ -91,24 +87,22 @@
+      * (g)
+      */
+     public void crossReference() {
+-        TreeMap<String, TreeSet<String>> swappedMap = new TreeMap<>();
++        //create a new TreeMap to hold the cross-referenced anagrams
++        TreeMap<String, TreeSet<String>> transformedAnagrams = new TreeMap<>(); // Step 1
+ 
+-        System.out.println(anagrams.keySet());
+-
++        //iterate through the original set of anagrams
+         for (String key : anagrams.keySet()) {
+-            TreeSet<String> valueSet = anagrams.get(key);
++            TreeSet<String> currentAnagram = anagrams.get(key);
+ 
+-            System.out.print(valueSet);
++            // add the keys from the currentAnagram to the transFormedAnagram
++            transformedAnagrams.computeIfAbsent(key, k -> new TreeSet<>()).addAll(currentAnagram);
+ 
+-            for (String value : valueSet) {
+-                if (!swappedMap.containsKey(value)) {
+-                    anagrams.computeIfAbsent(aWord, k -> new TreeSet<>()).add(anAnagram);
+-                }
+-                swappedMap.get(value).add(key);
++            for (String value : currentAnagram) {
++                transformedAnagrams.computeIfAbsent(value, k -> new TreeSet<>()).addAll(currentAnagram);
++
+             }
+         }
+-
+-        // Now, swappedMap contains the swapped key-value pairs
+-        anagrams =  swappedMap;
++        // Update the original anagr ams map with the transformed data
++        anagrams = transformedAnagrams; // step 5
+     }
+ }

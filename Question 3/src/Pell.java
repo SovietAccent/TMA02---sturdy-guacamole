@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Pell {
 
     // (a)
@@ -13,8 +15,8 @@ public class Pell {
     //(c)
     public int calculatePellNumAt(int n)
     {
-        int pellMinOne = 2;
-        int pellMinTwo = 1;
+        int pellMinOne = 1;
+        int pellMinTwo = 0;
         int pellNumber = 0;
 
         for(int i = 3; i <= n; i++) {
@@ -25,11 +27,24 @@ public class Pell {
         return pellNumber;
     }
 
-    //(d)
-//    public double estimateRoot2(int n)
-//    {
-//
-//    }
+//    (d)
+    public void populatePellNums()
+    {
+        pellNums[0] = 0;
+        pellNums[1] = 1;
+
+        for (int i = 2; i < COUNT; i++) {
+            pellNums[i] = calculatePellNumAt(i + 1);
+        }
+    }
+
+    /*
+    test class to print pellNums - remove before completion!
+     */
+    public void printPellNum()
+    {
+        System.out.println(Arrays.toString(pellNums));
+    }
 
 
 }

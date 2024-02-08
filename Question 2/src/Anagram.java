@@ -102,7 +102,7 @@ public class Anagram {
 
             }
         }
-        // Update the original anagr ams map with the transformed data
+        // Update the original anagrams map with the transformed data
         anagrams = transformedAnagrams; // step 5
     }
 }
