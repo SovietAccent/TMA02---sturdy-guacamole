@@ -46,5 +46,20 @@ public class Pell {
         System.out.println(Arrays.toString(pellNums));
     }
 
+    //(e)
+    public double estimateRoot2(int n)
+    {
+        double doublePellNum = pellNums[n];
+
+        if (n == 0.0) {
+
+        double doublePellNumMinusOne = pellNums[n - 1];
+        double approxSqrtTwo = (doublePellNum + doublePellNumMinusOne) / doublePellNum;
+
+
+        System.out.println(approxSqrtTwo);// for testing purposes - remove before final completion
+
+        return approxSqrtTwo;
+    }
 
 }
