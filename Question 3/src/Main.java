@@ -11,7 +11,10 @@ public class Main {
 
         pell.printPellNum();
 
-        pell.estimateRoot2(9);
+        System.out.println();
+
+
+        pell.showConvergence();
 
 
 
