@@ -16,6 +16,9 @@ public class Main {
 
         pell.showConvergence();
 
+        System.out.println();
+
+        pell.findLength(0.9);
 
 
     }

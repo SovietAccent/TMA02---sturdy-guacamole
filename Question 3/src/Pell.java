@@ -73,4 +73,31 @@ public class Pell {
         }
     }
 
+    //(g)
+    public int findLength(double aPrecision)
+    {
+        //populate pellNums with COUNT.
+        populatePellNums();
+
+        //create a variable to hold the value of the square root of two.
+        double sqrt2 = Math.sqrt(2);
+
+        //initialise variables to hold values of error
+        double estimateOfSqrt2;
+        double error;
+
+        for (int i = 0; i < COUNT; i++) {
+            estimateOfSqrt2 = estimateRoot2(i);
+
+            error = Math.abs(sqrt2 - estimateOfSqrt2);
+
+            if(error < aPrecision) {
+                System.out.println(i);
+
+                return i;
+            }
+        }
+        return -1;
+    }
+
 }
