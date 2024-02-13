@@ -1,24 +1,31 @@
 public class Main {
     public static void main(String[] args) {
 
-        Pell pell = new Pell();
+        Pell p = new Pell();
 
-        pell.printPellNum();
-
-        System.out.println(pell.calculatePellNumAt(3));
-
-        pell.populatePellNums();
-
-        pell.printPellNum();
+//        p.printPellNum();
+//
+//        System.out.println(p.calculatePellNumAt(3));
+//
+//        p.populatePellNums();
+//
+//        p.printPellNum();
+//
+//        System.out.println();
+//
+//
+//        p.showConvergence();
+//
+//        System.out.println();
+//
+//        p.findLength(0.9);
 
         System.out.println();
 
 
-        pell.showConvergence();
+        System.out.println(p.findLength(0.1));
+        System.out.println(p.findLength(0.000000001));
 
-        System.out.println();
-
-        pell.findLength(0.9);
 
 
     }

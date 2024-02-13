@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Pell {
 
     // (a)
-    private static final int COUNT = 10;
+    private static final int COUNT = 14;
     public int[] pellNums;
 
     //(b)
@@ -76,7 +76,7 @@ public class Pell {
         //create a variable to hold the value of the square root of two.
         double sqrt2 = Math.sqrt(2);
 
-        for (int i = 0; i < COUNT; i++) {
+        for (int i = 2; i <= COUNT; i++) {
            double estimateOfSqrt2 = estimateRoot2(i);
 
            double error = Math.abs(sqrt2 - estimateOfSqrt2);
